@@ -46,8 +46,8 @@ public class NewJFrame extends javax.swing.JFrame {
              System.out.println(total);
         } else if (total>0.0) {
                 
-                double numero2 = listaNumeros.get(i).doubleValue();
-                char operador = listaOperadores.get(j).charValue();
+                double numero2 = listaNumeros.get(i+1).doubleValue();
+                char operador = listaOperadores.get(j+1).charValue();
                 total = executarOperacao(total, operador, numero2);
                 j++;
                 System.out.println(total);
